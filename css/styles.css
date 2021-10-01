@@ -290,11 +290,11 @@ margin left: 50px;
 .benefits-block {
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  width: 270;
-  height: 120;
+  width: 270px;
+  height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
 }
