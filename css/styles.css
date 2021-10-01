@@ -212,7 +212,7 @@ margin left: 50px;
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/hero.jpg);
-  background-size: auto; /*cover*/
+  background-size: cover; /*auto*/
   background-position: center;
   background-repeat: no-repeat;
 }
