@@ -425,6 +425,16 @@ margin left: 50px;
   justify-content: center;
 }
 
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  fill: var(--primary-title-color);
+}
+
 .social-icon {
   width: 20px;
   height: 20px;
