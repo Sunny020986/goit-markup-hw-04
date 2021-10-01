@@ -419,9 +419,8 @@ margin left: 50px;
   height: 100%;
   border-radius: 50%;
   background-color: rgb(41, 109, 69);
-
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
 }
 
