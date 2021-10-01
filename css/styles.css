@@ -458,6 +458,11 @@ margin left: 50px;
 .clents-block {
 }
 
+.clients-list {
+  display: flex;
+  flex-direction: row;
+}
+
 /**#################### Portfolio page  ############**/
 
 .btn-list {
