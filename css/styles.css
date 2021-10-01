@@ -441,7 +441,24 @@ margin left: 50px;
   fill: var(--social-icon-color);
 }
 
-/******   Portfolio page   ******/
+/************** clients section ****************/
+
+.clients {
+}
+
+.clients-name {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  line-height: calc(42 / 36);
+  color: var(--secondary-title-color);
+  text-align: center;
+}
+
+.clents-block {
+}
+
+/**#################### Portfolio page  ############**/
 
 .btn-list {
   display: flex;
@@ -536,8 +553,9 @@ margin left: 50px;
   border-top: none;
 }
 
-.portfolio-item :hover,
-.portfolio-item :focus {
+.portfolio-block:hover .portfolio-item,
+.portfolio-block:focus .portfolio-item {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  background-color: red;
 }
