@@ -403,7 +403,7 @@ margin left: 50px;
 .social-list {
   display: flex;
   justify-content: center;
-  outline: solid 2px red;
+  /* outline: solid 2px red; */
 }
 
 .social-item {
