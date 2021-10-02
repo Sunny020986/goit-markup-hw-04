@@ -67,7 +67,7 @@ ul {
   height: auto;
 }
 
-/******  Header  ******/
+/**********************  Header  ******************/
 
 .header {
   border-bottom: 1px solid #ececec;
@@ -180,12 +180,25 @@ margin left: 50px;
   fill: var(--accent-color);
 }
 
-/****  Footer  ****/
+/********************  Footer  ********************/
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-color);
 }
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.footer-block {
+}
+
+.footer-block + .footer-block {
+  margin-left: 60px;
+}
+
 .footer-logo {
   display: block;
   margin-bottom: 20px;
@@ -206,6 +219,7 @@ margin left: 50px;
   line-height: calc(24 / 14);
   color: var(--primary-title-color);
 }
+
 .footer-contact {
   font-style: normal;
   font-size: 14px;
@@ -213,7 +227,25 @@ margin left: 50px;
   color: rgba(255, 255, 255, 0.6);
 }
 
-/****  section hero  *****/
+.footer-tittle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16px / 14);
+  text-transform: uppercase;
+  color: var(--secondary-background-color);
+  margin-bottom: 30px;
+}
+
+/* .footer-icon-social { */
+.footer-link-social {
+  width: 100%;
+  height: 100#;
+  display: block;
+  border-radius: 50%;
+}
+
+/******************  section hero  ****************/
 
 .hero {
   background-color: var(--background-color);
@@ -274,7 +306,7 @@ margin left: 50px;
   background: #188ce8;
 }
 
-/***************  benefits section  ***************/
+/*****************  benefits section  ************/
 
 .benefits-list {
   display: flex;
@@ -343,7 +375,7 @@ margin left: 50px;
   margin-left: 30px;
 }
 
-/*********** team section *************/
+/******************* team section ****************/
 
 .team {
   background-color: var(--secondary-background-color);
@@ -411,6 +443,7 @@ margin left: 50px;
 .social-item {
   width: 44px;
   height: 44px;
+  display: block;
 }
 .social-item + .social-item {
   margin-left: 10px;
@@ -441,10 +474,7 @@ margin left: 50px;
   fill: var(--social-icon-color);
 }
 
-/************** clients section ****************/
-
-.clients {
-}
+/**************** clients section ****************/
 
 .clients-name {
   margin-bottom: 50px;
@@ -456,12 +486,8 @@ margin left: 50px;
   text-align: center;
 }
 
-.clents-block {
-}
-
 .clients-list {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .clients-list .clients-item + .clients-item {
@@ -476,6 +502,11 @@ margin left: 50px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+
+.clients-item:hover {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .clients-link {
