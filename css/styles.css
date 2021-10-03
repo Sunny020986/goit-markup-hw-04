@@ -442,12 +442,6 @@ margin left: 50px;
   border-radius: 4px;
 }
 
-.clients-item:hover,
-.clients-item:focus {
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
-}
-
 .clients-link {
   display: block;
 }
@@ -456,14 +450,15 @@ margin left: 50px;
   fill: var(--social-icon-color);
 }
 
+.clients-link:hover,
+.clients-link:focus {
+  border-color: var(--accent-color);
+}
+
 .clients-link:hover .icon-client,
 .clients-link:focus .icon-client {
   fill: var(--accent-color);
 }
-/* 
-.clients-link:hover .icon-clients {
-  fill: var(--accent-color);
-} */
 
 /**#################### Portfolio page  ############**/
 
