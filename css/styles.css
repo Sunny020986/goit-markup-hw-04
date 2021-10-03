@@ -457,7 +457,6 @@ margin left: 50px;
 .clients-item:hover .icon-client,
 .clients-item:focus .icon-client {
   fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
 }
 
 /**#################### Portfolio page  ############**/
