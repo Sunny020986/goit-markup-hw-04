@@ -449,14 +449,15 @@ margin left: 50px;
 }
 
 .clients-link {
+  display: block;
 }
 
 .icon-client {
   fill: var(--social-icon-color);
 }
 
-.clients-link:hover .icon-clients,
-.clients-link:focus .icon-clients {
+.clients-link:hover .icon-client,
+.clients-link:focus .icon-client {
   fill: var(--accent-color);
 }
 /* 
