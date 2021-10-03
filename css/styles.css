@@ -433,6 +433,9 @@ margin left: 50px;
 }
 
 .clients-item {
+}
+
+.clients-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -440,10 +443,6 @@ margin left: 50px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-}
-
-.clients-link {
-  display: block;
 }
 
 .icon-client {
