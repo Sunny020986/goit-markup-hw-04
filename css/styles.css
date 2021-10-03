@@ -440,7 +440,8 @@ margin left: 50px;
   border-radius: 4px;
 }
 
-.clients-item:hover {
+.clients-item:hover,
+.clients-item:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
@@ -450,6 +451,12 @@ margin left: 50px;
 
 .icon-client {
   fill: var(--social-icon-color);
+}
+
+.clients-item:hover .icon-client,
+.clients-item:focus .icon-client {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 /**#################### Portfolio page  ############**/
