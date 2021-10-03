@@ -455,10 +455,14 @@ margin left: 50px;
   fill: var(--social-icon-color);
 }
 
-.clients-item:hover .icon-client,
-.clients-item:focus .icon-client {
+.clients-link:hover .icon-clients,
+.clients-link:focus .icon-clients {
   fill: var(--accent-color);
 }
+/* 
+.clients-link:hover .icon-clients {
+  fill: var(--accent-color);
+} */
 
 /**#################### Portfolio page  ############**/
 
