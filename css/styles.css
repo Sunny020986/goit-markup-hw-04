@@ -440,12 +440,10 @@ margin left: 50px;
   border-radius: 4px;
 }
 
-.clients-item:hover {
+.clients-link:hover,
+.clients-link:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
-}
-
-.clients-link {
 }
 
 .icon-client {
