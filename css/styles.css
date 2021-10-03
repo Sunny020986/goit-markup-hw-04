@@ -579,7 +579,8 @@ margin left: 50px;
 .footer-container {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
+  align-items: baseline;
 }
 
 .footer-block + .footer-block {
@@ -624,7 +625,6 @@ margin left: 50px;
   color: var(--secondary-background-color);
 
   margin-bottom: 30px;
-  margin-top: 12px;
   display: inline-block;
 }
 
