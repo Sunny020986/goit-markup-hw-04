@@ -625,7 +625,7 @@ margin left: 50px;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: calc(16px / 14);
+  line-height: calc(16 / 14);
   text-transform: uppercase;
 
   color: var(--secondary-background-color);
